@@ -1,0 +1,87 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34902.65
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudWorks.Api", "CloudWorks.Api\CloudWorks.Api.csproj", "{4173C519-8AF4-4831-BAE3-BF3544C0BA31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudWorks.Data", "CloudWorks.Data\CloudWorks.Data.csproj", "{DC281A36-C19E-4D56-9E8B-93E00978A8A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudWorks.Infrastructure", "CloudWorks.Infrastructure\CloudWorks.Infrastructure.csproj", "{535E24E3-D94D-47D6-A4D6-9EAF9F6C0D97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudWorks.Services.Contracts", "CloudWorks.Services.Contracts\CloudWorks.Services.Contracts.csproj", "{EB36F287-B474-4D47-A825-635F186FE0DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudWorks.Data.Migrations", "CloudWorks.Data.Migrations\CloudWorks.Data.Migrations.csproj", "{446AD7A1-47B7-4252-990D-2817EEF71697}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{A7E89867-188B-43D6-93CB-2FC9EAC1BB43}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Contracts", "Contracts", "{1D177348-2229-47F6-80C8-1C60B1FEFFB1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Implementation", "Implementation", "{C0FF2DEF-A3D8-43F7-94BD-53AC8210F6D8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Migrations", "Migrations", "{74600B06-0AE8-469A-95C6-BF6EB24DA133}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudWorks.Application", "CloudWorks.Application\CloudWorks.Application.csproj", "{F8025068-C850-4F56-BFED-605F3D2D05D6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{3AC317FD-E826-4551-A8F6-CA9412558252}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudWorks.UnitTests", "CloudWorks.UnitTests\CloudWorks.UnitTests.csproj", "{92F5495E-EB51-4582-947F-9DE67AD26F88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudWorks.IntegrationTests", "CloudWorks.IntegrationTests\CloudWorks.IntegrationTests.csproj", "{6D0085B6-138A-4EC7-BBE9-432EBFF814FC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4173C519-8AF4-4831-BAE3-BF3544C0BA31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4173C519-8AF4-4831-BAE3-BF3544C0BA31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4173C519-8AF4-4831-BAE3-BF3544C0BA31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4173C519-8AF4-4831-BAE3-BF3544C0BA31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC281A36-C19E-4D56-9E8B-93E00978A8A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC281A36-C19E-4D56-9E8B-93E00978A8A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC281A36-C19E-4D56-9E8B-93E00978A8A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC281A36-C19E-4D56-9E8B-93E00978A8A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{535E24E3-D94D-47D6-A4D6-9EAF9F6C0D97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{535E24E3-D94D-47D6-A4D6-9EAF9F6C0D97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{535E24E3-D94D-47D6-A4D6-9EAF9F6C0D97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{535E24E3-D94D-47D6-A4D6-9EAF9F6C0D97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB36F287-B474-4D47-A825-635F186FE0DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB36F287-B474-4D47-A825-635F186FE0DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB36F287-B474-4D47-A825-635F186FE0DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB36F287-B474-4D47-A825-635F186FE0DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{446AD7A1-47B7-4252-990D-2817EEF71697}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{446AD7A1-47B7-4252-990D-2817EEF71697}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{446AD7A1-47B7-4252-990D-2817EEF71697}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{446AD7A1-47B7-4252-990D-2817EEF71697}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8025068-C850-4F56-BFED-605F3D2D05D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8025068-C850-4F56-BFED-605F3D2D05D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8025068-C850-4F56-BFED-605F3D2D05D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8025068-C850-4F56-BFED-605F3D2D05D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92F5495E-EB51-4582-947F-9DE67AD26F88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92F5495E-EB51-4582-947F-9DE67AD26F88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92F5495E-EB51-4582-947F-9DE67AD26F88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92F5495E-EB51-4582-947F-9DE67AD26F88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D0085B6-138A-4EC7-BBE9-432EBFF814FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D0085B6-138A-4EC7-BBE9-432EBFF814FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D0085B6-138A-4EC7-BBE9-432EBFF814FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D0085B6-138A-4EC7-BBE9-432EBFF814FC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4173C519-8AF4-4831-BAE3-BF3544C0BA31} = {A7E89867-188B-43D6-93CB-2FC9EAC1BB43}
+		{DC281A36-C19E-4D56-9E8B-93E00978A8A8} = {C0FF2DEF-A3D8-43F7-94BD-53AC8210F6D8}
+		{535E24E3-D94D-47D6-A4D6-9EAF9F6C0D97} = {C0FF2DEF-A3D8-43F7-94BD-53AC8210F6D8}
+		{EB36F287-B474-4D47-A825-635F186FE0DD} = {1D177348-2229-47F6-80C8-1C60B1FEFFB1}
+		{446AD7A1-47B7-4252-990D-2817EEF71697} = {74600B06-0AE8-469A-95C6-BF6EB24DA133}
+		{F8025068-C850-4F56-BFED-605F3D2D05D6} = {C0FF2DEF-A3D8-43F7-94BD-53AC8210F6D8}
+		{92F5495E-EB51-4582-947F-9DE67AD26F88} = {3AC317FD-E826-4551-A8F6-CA9412558252}
+		{6D0085B6-138A-4EC7-BBE9-432EBFF814FC} = {3AC317FD-E826-4551-A8F6-CA9412558252}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {537C4E31-871E-4287-B585-0122F02771DC}
+	EndGlobalSection
+EndGlobal
